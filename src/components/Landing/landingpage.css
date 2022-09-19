@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_01 {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: brown;
+}
+#root > div > div:nth-child(1) > img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px crimson, -10px -10px 10px crimson;
+}
+#root > div > div:nth-child(2) > h2 {
+    font-size: 80px;
+    color: #f2f2f2;
+    font-weight: 900;
+}
+#root > div > div:nth-child(2) > a {
+    width: 200px;
+    background: cadetblue;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 15px 0;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 900;
+    color: #f2f2f2;
+    font-style: oblique;
+}

@@ -1,0 +1,98 @@
+.PostCardContainer {
+  width: 100%;
+  background: steelblue;
+  height: 400px;
+  display: block;
+  margin: 50px auto;
+  border-radius: 10px;
+  max-width: 450px;
+  padding: 10px;
+}
+form.PostCardForm {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+input[type="file"] {
+  width: -webkit-fill-available;
+  font-size: 23px;
+  color: aliceblue;
+  font-family: emoji;
+  font-style: oblique;
+  margin: 10px;
+  font-weight: 600;
+}
+
+/* ////////////////////////////// */
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: "Browse";
+  display: inline-block;
+  background: brown;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 23px;
+  width: 100px;
+  text-align: center;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+input[type="text"] {
+  width: 90%;
+  display: block;
+  margin: auto;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 23px;
+  color: #323030;
+  font-family: cursive;
+  background: aliceblue;
+  font-style: oblique;
+  font-weight: 600;
+  border: none;
+}
+/* input[type="text"]:focus-visible {
+  outline: none;
+} */
+.submit {
+  width: 60%;
+  max-width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  margin: auto;
+  background: brown;
+  color: aliceblue;
+  font-size: 25px;
+  font-style: oblique;
+  font-family: cursive;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+.submit:hover {
+  color: brown;
+  background-color: aliceblue;
+}
+svg {
+  color: black;
+}
+.Link {
+  text-align: center;
+}

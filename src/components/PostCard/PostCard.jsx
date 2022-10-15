@@ -18,7 +18,7 @@ const PostCard = () => {
             userData.append("location", e.target.location.value);
             userData.append("image", e.target.image.files[0]);
             userData.append("likes", Math.ceil(Math.random() * 100));
-            fetch(`https://insta-server-guru.herokuapp.com/Post`, {
+            fetch(`https://instacloneserver-shalini.herokuapp.com/POST`, {
               method: "POST",
               body: userData,
             })

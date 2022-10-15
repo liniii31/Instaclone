@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaEllipsisH, FaRegHeart, FaRegPaperPlane } from "react-icons/fa";
 import GetWithHeader from "../Header/GetWithHeader";
 import "./postview.css";
-const ServerUrl = "https://insta-server-guru.herokuapp.com";
+const ServerUrl = "https://instacloneserver-shalini.herokuapp.com/ ";
 function Postview() {
   const [user, setUser] = useState([]);
   const getUserData = async () => {
